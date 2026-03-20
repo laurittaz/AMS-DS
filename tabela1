@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Minha Tabela</title>
+<meta charset="UTF-8">
+<meta name="author"content="Lauritta">
+<meta name="description" content="Trabalhando com tabelas">
+<meta name="keywords" content="sites, tabelas, web">
+</head>
+<body>
+<font color="pink"><h3>Minha Primeira Tabela</h3></font>
+
+<table align="center" border="1" bgcolor="pink" bordercolor="blue" cellpadding="10" cellspacing="5">
+	<tr bgcolor="white">
+		<td><b>Nome</b></td>
+		<td><b>Idade</b></td>
+	</tr>
+	<tr>
+		<td bgcolor="white">João</td>
+		<td bgcolor="white">15</td>
+	</tr>
+	<tr>
+		<td>Maria</td>
+		<td>16</td>
+	</tr>
+	</table>
+	</body>
+	</html>
