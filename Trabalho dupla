@@ -42,3 +42,16 @@ E-mail:
 <br>
 <input type="radio" name="preferenciacontato" value="whats">
 Whatsapp:
+<br><br>
+<input type="checkbox" name="novidades" value="sim">
+Deseja receber novidades por e-mail?
+<br><br>
+Mensagem
+<br>
+<textarea name="mensagem" rows="5" cols="35" placeholder="Digite sua mensagem"></textarea> 
+<br>
+<button type="submit">Enviar</button>
+<button type="reset">Limpar</button>
+</form>
+</body>
+</html>
