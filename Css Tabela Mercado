@@ -1,0 +1,32 @@
+body{
+	font-family: arial;
+}	
+
+table {
+  border-collapse: collapse;
+   width: 50%;
+   height: 50%;
+}
+th {
+	background-color: #D386DB;
+	color: black;
+	padding: 10px;	
+  }
+ td{
+	 padding: 10px;
+	 text-align: center;
+	 border: 1px solid black;
+ }
+/* --- Estiliza todas as linhas de tabela com posição par ---*/
+ tr:nth-child(even){
+	 background-color:#D386DB;
+ }
+/* --- Mudar a cor quando o cursor do mouse passar ---*/
+ tr:hover {
+	 background-color: #FFADF3;
+ }
+
+ tbody{
+ 	background-color: pink;
+ 	color: black;
+ }
