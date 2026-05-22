@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UFT-8">
+<link rel="stylesheet" href="estilo.css">
+<title>loja_smartphones.html</title>
+</head>
+<body>
+<h1>Loja Smartphones</h1>
+<p>A Loja Smartphones tem como objetivo oferecer produtos de qualidade e com um preço justo para todos. Venha ver!</p>
+<p>A loja fica localizda na rua Fulano de Tal 67-7, na cidade de Bauru em São Paulo.</p>
+<h2>Seção de Produtos</h2>
+
+<table>
+<thead>
+<tr>
+<th>Modelo</th>
+<th>Preço</th>
+<th>Ano</th>
+<th>Fabricante</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>iPhone 16</td>
+<td>R$5.443,00</td>
+<td>2024</td>
+<td>Apple</td>
+</tr>
+
+
+<tr>
+<td>iPhone 15</td>
+<td>R$4.662,22</td>
+<td>2023</td>
+<td>Apple</td>
+</tr>
+
+<tr>
+<td>iPhone 14</td>
+<td>R$3.695,00</td>
+<td>2022</td>
+<td>Apple</td>
+</tr>
+</tbody>
+</table>
+
+<h1>Contato</h1>
+
+ <form action="#" method="post">
+        <div class="form">
+            <label for="nome" class="required">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" maxlength="60" required>
+        </div>
+
+        <div class="form">
+            <label for="email" class="required">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" maxlength="80" required>
+
+        <div class="form">
+            <label for="produto" class="required">Produto de interesse</label>
+            <input type="text" id="produto" name="produto" placeholder="Ex: iPhone 16, iPhone 15, Acessórios..." maxlength="80" required>
+           
+        </div>
+        <div class="form">
+            <label for="mensagem" class="required">Mensagem</label>
+            <input type="text" id="mensagem" name="mensagem" placeholder="Escreva sua dúvida, pedido ou sugestão..." maxlength="300" required>
+            <div>
+        	<br><br>
+        <div class="botoes">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
+
+
