@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>siteacessivel</title>
+</head>
+<body>
+
+<h1>A importância da inclusão digital</h1>
+	<h2>O que é acessibilidade?</h2>
+	<p>A acessibilidade  é a possibilidade e condição de alcance para utilização, com segurança e autonomia, dos espaços, mobiliários, equipamentos urbanos, edificações, transportes, informação e comunicação, bem como de outros serviços e instalações abertos ao público ou de uso coletivo.  Este conceito, definido pela Lei Brasileira de Inclusão (Lei nº 13.146/2015), visa garantir que pessoas com deficiência ou mobilidade reduzida possam participar plenamente da vida em sociedade, eliminando barreiras físicas, comunicacionais e atitudinais.</p>
+	 <img src="img/img1.jpg" alt="Ilustração digital com fundo em degradê azul e verde-claro. No centro, há um laptop grande aberto, visto em perspectiva, com várias janelas e blocos que representam uma página da internet.
+À esquerda do notebook, aparece uma pessoa em cadeira de rodas, vista de costas, olhando para a tela. A pessoa usa roupa rosa e azul. Próximo ao computador há um ícone de coração rosa flutuando.
+À direita da tela, existe um símbolo grande de acessibilidade: um círculo branco com borda azul contendo a figura estilizada de uma pessoa de braços abertos.
+A imagem transmite a ideia de acessibilidade digital e inclusão na tecnologia, mostrando que sites e plataformas devem ser acessíveis para pessoas com deficiência.">
+<br><br>
+<button onclick="altenarContraste()">Alternar modo alto contraste</button>
+<button onclick="aumentarFonte()">Aumentar Fonte</button>
+<button onclick="diminuirFonte()">Diminuir Fonte</button>
+<script>
+    function alternarContraste() {
+        document.body.classList.toggle('contraste');
+    }
+
+    function aumentarFonte() {
+        let tamanhoAtual = parseFloat(getComputedStyle(document.documentElement).fontSize);
+        document.documentElement.style.fontSize = (tamanhoAtual + 1) + 'px';
+    }
+
+    function diminuirFonte() {
+        let tamanhoAtual = parseFloat(getComputedStyle(document.documentElement).fontSize);
+        document.documentElement.style.fontSize = (tamanhoAtual - 1) + 'px';
+    }
+</script>
+<script>
+	function altenarContraste() {
+		document.body.classList.toggle('contraste');
+		}
+</script>
+   <h2>Importância da inclusão digital</h2>
+   <p>A inclusão digital é o processo de democratizar o acesso às tecnologias da informação e comunicação (TICs), garantindo não apenas a disponibilidade de dispositivos e conexão, mas também o domínio das ferramentas para que todos possam participar plenamente da sociedade.  Ela vai além da simples conectividade, envolvendo a capacitação para utilizar a tecnologia de forma significativa, transformando o acesso em oportunidades reais de melhoria na qualidade de vida.</p>
+   <div vw class="enabled">
+<div vw-access-button class="active"></div>
+<div vw-plugin-wrapper>
+<div class="vw-plugin-top-wrapper"></div>
+</div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+</body>
+</html>
