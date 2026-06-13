@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Viagens Amor</title>
+</head>
+<body>    <title>Viagens Amor</title>
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Viagens Amor</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicos.html">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+ <div class="texto">
+ <h1>Escolha seu destino!</h1>
+</div>
+
+ <div class="container1">
+
+ <table class="table table-dark table-hover">
+   <thead>
+     <tr>
+    <th>Destino</th>
+    <th>Transporte</th>
+    <th>Hotel</th>
+    <th>Valor</th>
+    <th>Dias</th>
+     </tr>
+   </thead>
+<tbody>
+  <tr>
+  <td>Salvador</td>
+  <td>Avião</td>
+  <td>Fiesta Bahia</td>
+  <td>R$ 3,000</td>
+  <td>7 dias</td>
+  </tr>
+  <tr>
+    <td>Rio de Janeiro</td>
+    <td>Avião</td>
+    <td>Copacabana Palace</td>
+    <td>R$ 4.200</td>
+    <td>6 dias</td>
+   </tr>
+   <tr>
+    <td>Fernando de Noronha</td>
+    <td>Avião + Barco</td>
+    <td>Pousada Maravilha</td>
+    <td>R$ 7.500</td>
+    <td>5 dias</td>
+   </tr>
+   <tr>
+    <td>Gramado</td>
+    <td>Ônibus</td>
+    <td>Hotel Colline de France</td>
+    <td>R$ 2.800</td>
+    <td>5 dias</td>
+   </tr>
+   <tr>
+    <td>Florianópolis</td>
+    <td>Avião</td>
+    <td>Jurerê Beach Village</td>
+    <td>R$ 3.500</td>
+    <td>6 dias</td>
+   </tr>
+   <tr>
+    <td>Manaus</td>
+    <td>Avião</td>
+    <td>Tropical Manaus</td>
+    <td>R$ 4.000</td>
+    <td>7 dias</td>
+   </tr>
+   <tr>
+    <td>Porto de Galinhas</td>
+    <td>Avião</td>
+    <td>Nannai Resort</td>
+    <td>R$ 5.200</td>
+    <td>6 dias</td>
+   </tr>
+</tbody>
+ </table>
+</div>
+
+<section class="bnt">
+  <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button onclick="altenarContraste()" type="button" class="btn btn-outline-dark">Alternar Contraste</button>
+                    <button onclick="diminuirFonte()" type="button" class="btn btn-outline-dark">Diminuir Fonte</button>
+                    <button onclick="aumentarFonte()" type="button" class="btn btn-outline-dark">Aumentar Fonte</button>
+                  </div>
+
+                  <div>
+                    <script>
+                      function aumentarFonte() {
+                      document.documentElement.style.fontSize = parseInt 
+                      (getComputedStyle(document.documentElement).fontSize) + 1 + 'px'; }
+                      function diminuirFonte() {
+                      document.documentElement.style.fontSize = parseInt
+                      (getComputedStyle(document.documentElement).fontSize) - 1 + 'px'; }
+                    </script>
+                     
+                    <script>
+                      function altenarContraste() {
+                        document.body.classList.toggle('contraste');
+                        }
+                    </script>
+                    
+                    <div vw class="enabled">
+                    <div vw-access-button class="active"></div>
+                    <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                    </div>
+                    </div>
+                    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+                    <script>
+                      new window.VLibras.Widget('https://vlibras.gov.br/app');
+                    </script>
+                    </section>
+</body>
+</html>

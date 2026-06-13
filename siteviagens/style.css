@@ -1,0 +1,26 @@
+.textohome {
+	font-size: 20px;
+	padding: 10px;
+}
+body { background-color: white;
+	color: black;
+}
+body.contraste {
+    background-color: black;
+    color: white;
+}
+.bnt {
+	padding: 10px;
+}
+.container1 {
+	padding: 10px;
+
+}
+.texto {
+	text-align: center;
+
+}
+.texto2 {
+	text-align: center;
+	height: 20px;
+}

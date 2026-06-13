@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Viagens Amor</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Viagens Amor</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicos.html">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header><h1 style="padding: 20px;">Viagens Amor -  O destino certo para quem viaja com o coração</h1></header>
+
+<section class="textohome">
+    <p> Você já imaginou transformar cada viagem em uma história inesquecível? Na Viagens Amor, acreditamos que viajar é mais do que conhecer novos lugares: é viver emoções, criar memórias e celebrar o que há de mais bonito na vida – o amor.</p>
+    <p>Seja um passeio a dois, uma lua de mel dos sonhos, uma aventura em família ou até mesmo aquela viagem de autodescoberta, a gente cuida de cada detalhe com carinho, segurança e paixão pelo que faz.</p>
+</section>
+<section class="bnt">
+  <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button onclick="altenarContraste()" type="button" class="btn btn-outline-dark">Alternar Contraste</button>
+                    <button onclick="diminuirFonte()" type="button" class="btn btn-outline-dark">Diminuir Fonte</button>
+                    <button onclick="aumentarFonte()" type="button" class="btn btn-outline-dark">Aumentar Fonte</button>
+                  </div>
+
+                  <div>
+                    <script>
+                      function aumentarFonte() {
+                      document.documentElement.style.fontSize = parseInt 
+                      (getComputedStyle(document.documentElement).fontSize) + 1 + 'px'; }
+                      function diminuirFonte() {
+                      document.documentElement.style.fontSize = parseInt
+                      (getComputedStyle(document.documentElement).fontSize) - 1 + 'px'; }
+                    </script>
+                     
+                    <script>
+                      function altenarContraste() {
+                        document.body.classList.toggle('contraste');
+                        }
+                    </script>
+                    
+                    <div vw class="enabled">
+                    <div vw-access-button class="active"></div>
+                    <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                    </div>
+                    </div>
+                    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+                    <script>
+                      new window.VLibras.Widget('https://vlibras.gov.br/app');
+                    </script>
+                    </section>
+    <main>
+        <section class="container">
+            <div class="texto">
+            <h1 style="text-align: center;">Viagens do Momento!</h1>
+            <p style="text-align: center;">Aqui você encontra as melhores viagens para o seu destino</p>
+        </div>
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/img1.jpg" class="d-block w-100" alt="Viagem Paris">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/img2.jpg" class="d-block w-100" alt="Viagem Paris">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/img3.jpg" class="d-block w-100" alt="Viagem Salvador">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+    </main>
+    <footer>
+        <p style="text-align: center;">Copyright 2026 viagensamor</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
